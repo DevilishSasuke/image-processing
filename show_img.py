@@ -13,6 +13,4 @@ def show_img(img: cv2.typing.MatLike | None, title: str = "",
 
     plt.title(title)
     plt.axis("off")
-    #plt.tight_layout(pad=0, w_pad=0, h_pad=0)
-    #plt.margins(x=0, y=0)
     plt.show()
